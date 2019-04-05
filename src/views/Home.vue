@@ -1,18 +1,17 @@
 <template>
-    <div class="home">
-        <img alt="Vue logo" src="../assets/logo.png" />
-        <AppNavigation appTitle="Meal Prep" />
-    </div>
+    <span>
+        <home-hero></home-hero>
+    </span>
 </template>
 
 <script>
 // @ is an alias to /src
-import AppNavigation from '@/components/AppNavigation.vue';
+import HomeHero from '@/components/HomeHero';
 
 export default {
     name: 'home',
     components: {
-        AppNavigation
+        HomeHero
     }
 };
 </script>
